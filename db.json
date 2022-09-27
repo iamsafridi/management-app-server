@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$Fsd8wqTFuS0ZO43wmX9zye2zRMwhJyNMJD/wLNn3NE8t1EAY4vRKm",
+      "name": "Sumit Saha",
+      "img": "https://image.shutterstock.com/shutterstock/photos/562077406/display_1500/stock-vector-man-character-face-avatar-in-glasses-modern-colorful-style-male-portrait-vector-cartoon-562077406.jpg "
+    },
+    {
+      "id": 2,
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$QwAaboLrPQznK/dFW0D1iu6aRG4KdaVsNYqyJFqJQF0CJZ5bzn/aS",
+      "name": "Akash Ahmed",
+      "img": "https://cdn4.vectorstock.com/i/1000x1000/31/63/man-face-avatar-profile-picture-vector-25763163.jpg"
+    },
+    {
+      "id": 3,
+      "email": "saad@learnwithsumit.com",
+      "password": "$2a$10$lpx3hz9hiN9zp4n/30LHset1/tt/30.Cq6w6f/kjTL.IUM7PgGniG",
+      "name": "Saad Hasan",
+      "img": "https://st4.depositphotos.com/1006318/21583/v/450/depositphotos_215836924-stock-illustration-bald-head-businessman-avatar-man.jpg"
+    },
+    {
+      "id": 4,
+      "email": "shahid@gmail.com",
+      "password": "$2a$10$Fsd8wqTFuS0ZO43wmX9zye2zRMwhJyNMJD/wLNn3NE8t1EAY4vRKm",
+      "name": "Shahid Afridi",
+      "img": "https://thumbs.dreamstime.com/z/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-male-face-avatar-man-beard-suit-shirt-necktie-portrait-businessman-icon-vector-illustration-189004563.jpg"
+    }
+  ],
+  "teams": [
+    {
+      "name": "Developer",
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ut ipsum eveniet sequi pariatur esse.",
+      "color": "red",
+      "members": ["shahid@gmail.com"],
+      "creator": "shahid@gmail.com",
+      "timestamp": 1662704970215,
+      "id": 1
+    }
+  ],
+  "projects": [
+    {
+      "name": "Best Project Management Application",
+      "title": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum ut ipsum eveniet sequi pariatur esse.",
+      "color": "yellow",
+      "status": "backlog",
+      "timestamp": 1664299112213,
+      "creator": {
+        "email": "sumit@learnwithsumit.com",
+        "name": "Sumit Saha",
+        "img": "https://thumbs.dreamstime.com/z/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-male-face-avatar-man-beard-suit-shirt-necktie-portrait-businessman-icon-vector-illustration-189004563.jpg"
+      },
+      "style": "",
+      "id": 1
+    },
+    {
+      "name": "Chat Application",
+      "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, voluptatem!",
+      "color": "orange",
+      "status": "backlog",
+      "creator": {
+        "email": "shahid@gmail.com",
+        "name": "Shahid Afridi",
+        "img": "https://thumbs.dreamstime.com/z/%D0%BF%D0%B5%D1%87%D0%B0%D1%82%D1%8C-male-face-avatar-man-beard-suit-shirt-necktie-portrait-businessman-icon-vector-illustration-189004563.jpg"
+      },
+      "timestamp": 1664299112213,
+      "id": 2
+    }
+  ]
+}
